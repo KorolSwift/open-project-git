@@ -20,4 +20,7 @@ cd projects
 git clone git@github.com:KorolSwift/open-project-git.git 
 cd open-project-git
 echo 'Команды для создания локального репозитория' >> README.md
-cat README.md
+
+git add README.md 
+git commit -m "Добавила изменения в README.md" 
+git push
